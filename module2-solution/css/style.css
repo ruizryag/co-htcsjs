@@ -79,7 +79,7 @@ p{
   }
 }
 
-/********** TABLET DEVICES **********/
+/********** PHONE DEVICES **********/
 @media (max-width: 767px) {
   .phone {
     float: left;
