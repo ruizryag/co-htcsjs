@@ -35,10 +35,9 @@ p{
   text-align: right;
   font-family: Helvetica;
   position: relative;
-  top: 0;
-  right: 0;
+  top: 0%;
+  width: 30%;
   text-align: center;
-  
 }
 
 /* Simple Responsive Framework. */
@@ -53,6 +52,7 @@ p{
     border: 1px solid black;
     width: 33.33%;
     margin-top: 10px;
+    background: grey;
   }
 }
 
@@ -63,6 +63,7 @@ p{
     border: 1px solid black;
     width: 50%;
     margin-top: 10px;
+    background: grey;
   }
 
    .tablet-2 {
@@ -70,6 +71,11 @@ p{
     border: 1px solid black;
     width: 100%;
     margin-top: 10px;
+    background: grey;
+  }
+
+  .tablet-2 #third-title.title {
+    width: 15%;  
   }
 }
 
@@ -80,5 +86,6 @@ p{
     border: 1px solid black;
     width: 100%;
     margin-top: 10px;
+    background: grey;
   }
 }
