@@ -7,12 +7,38 @@ h1 {
   text-align: center;
 }
 
-p {
-  width: 90%;
-  height: 90%;
+p{
+  width: 95%;
+  height: 95%;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
+}
+
+#first-title {
+  background: pink;
+  color: black;
+}
+
+#second-title {
+  background: red;
+  color: white;
+}
+
+#third-title {
+  background: yellow;
+  color: black;
+}
+
+.title {
+  border: 1px solid black;
+  text-align: right;
+  font-family: Helvetica;
+  position: relative;
+  top: 0;
+  right: 0;
+  text-align: center;
+  
 }
 
 /* Simple Responsive Framework. */
@@ -26,6 +52,7 @@ p {
     float: left;
     border: 1px solid black;
     width: 33.33%;
+    margin-top: 10px;
   }
 }
 
@@ -35,12 +62,14 @@ p {
     float: left;
     border: 1px solid black;
     width: 50%;
+    margin-top: 10px;
   }
 
    .tablet-2 {
     float: left;
     border: 1px solid black;
     width: 100%;
+    margin-top: 10px;
   }
 }
 
@@ -50,5 +79,6 @@ p {
     float: left;
     border: 1px solid black;
     width: 100%;
+    margin-top: 10px;
   }
 }
