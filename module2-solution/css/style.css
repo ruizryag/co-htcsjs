@@ -1,0 +1,54 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+p {
+  width: 90%;
+  height: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** DESKTOP DEVICES **********/
+@media (min-width: 992px) {
+  .desktop {
+    float: left;
+    border: 1px solid black;
+    width: 33.33%;
+  }
+}
+
+/********** TABLET DEVICES **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .tablet-1 {
+    float: left;
+    border: 1px solid black;
+    width: 50%;
+  }
+
+   .tablet-2 {
+    float: left;
+    border: 1px solid black;
+    width: 100%;
+  }
+}
+
+/********** TABLET DEVICES **********/
+@media (max-width: 767px) {
+  .phone {
+    float: left;
+    border: 1px solid black;
+    width: 100%;
+  }
+}
